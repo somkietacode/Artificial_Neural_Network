@@ -43,3 +43,13 @@ y = np.matrix(df[["Research"]].to_numpy())
 ANN = artificialneuralnetwork_classifier(x,y)
 
 ```
+
+Let make prediction
+
+```python
+
+X = np.matrix([[318,110,3,4,3,8.8] ])
+print(Ann.predict(X))
+
+```
+
