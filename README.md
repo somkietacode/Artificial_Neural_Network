@@ -17,3 +17,8 @@ Artificial Neural Network is:
 
 ## First contact with Artificial Neural Network
 
+The core data structures of Artificial Neural Network are __consign__ and __result__.
+It implement four model in two layer neural network for helping you fast build __predictor__.
+
+Here is an `exemple` :
+
