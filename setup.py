@@ -5,6 +5,7 @@ setup(
     version='1.0.0',
     install_requires=[
         'numpy',
+        'math',
         'importlib-metadata; python_version == "3.8"',
     ],
 )
