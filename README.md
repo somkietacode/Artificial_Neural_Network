@@ -23,7 +23,7 @@ It implement four model in two layer neural network for helping you fast build _
 Here is an `exemple` :
 
 ```python
-from Artificial_Neural_Network import artificialneuralnetwork_classifier
+from Artificial_Neural_Network_Classifier import artificialneuralnetwork_classifier
 import pandas as pd
 import numpy as np
 
