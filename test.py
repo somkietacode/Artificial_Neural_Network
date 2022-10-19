@@ -1,4 +1,4 @@
-from Artificial_Neural_Network import artificialneuralnetwork_classifier
+from Artificial_Neural_Network_Classifier import artificialneuralnetwork_classifier
 import pandas as pd
 import numpy as np
 
