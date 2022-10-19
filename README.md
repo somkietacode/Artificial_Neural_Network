@@ -20,6 +20,13 @@ Artificial Neural Network is:
 The core data structures of Artificial Neural Network are __consign__ and __result__.
 It implement four model in two layer neural network for helping you fast build __predictor__.
 
+For installation run :
+
+```
+pip install Artificial-Neural-Network-Classifier
+
+```
+
 Here is an `exemple` :
 
 ```python
