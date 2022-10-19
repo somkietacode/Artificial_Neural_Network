@@ -1,3 +1,10 @@
 # Artificial Neural Network
 ![Artificial Neural Network logo](image/gitban.png)
-An artificial neural network, or artificial neural network, is a system whose design was originally schematically inspired by the functioning of biological neurons, and which subsequently approached statistical methods. 
+
+This repository hosts the development of the Artificial Neural Network library.
+
+## About Artificial Neural Network
+
+Artificial Neural Network, is a deep learning API written in Python.
+It was developed with a focus on enabling fast experimentation.
+*Being able to go from idea to result as fast as possible is key to doing good research.*
