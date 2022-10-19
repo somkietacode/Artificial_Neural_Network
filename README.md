@@ -53,3 +53,6 @@ print(Ann.predict(X))
 
 ```
 
+It is a binairy classifier. Mean that your response should be 0 or 1. And your dataset response may also be binary.
+
+
