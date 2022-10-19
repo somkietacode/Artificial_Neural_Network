@@ -1,9 +1,9 @@
 import numpy as np
-from Artificial_Neural_Network.linearregression import linearregression as LR
-from Artificial_Neural_Network.logisticregession import logisticregression as Lgr
-from Artificial_Neural_Network.lineardiscriminantanalysis import lineardiscriminantananlysis as Lda
-from Artificial_Neural_Network.tanhiperboliqueregression import tanhiperboliqueregression as Thr
-from Artificial_Neural_Network.artificialneuralnetwork.softmaxregression import softmaxregression as sftmax
+from .linearregression import linearregression as LR
+from .logisticregession import logisticregression as Lgr
+from .lineardiscriminantanalysis import lineardiscriminantananlysis as Lda
+from .tanhiperboliqueregression import tanhiperboliqueregression as Thr
+from .softmaxregression import softmaxregression as sftmax
 
 class artificialneuralnetwork_classifier :
 
