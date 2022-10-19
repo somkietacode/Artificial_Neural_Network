@@ -14,3 +14,6 @@ Artificial Neural Network is:
 -   **Simple** 
 -   **Flexible** 
 -   **Powerful** 
+
+## First contact with Artificial Neural Network
+
