@@ -57,8 +57,8 @@ It is a binairy classifier. Mean that your response should be 0 or 1. And your d
 
 ### Admission data used for this exemple :
 
-GRE | Score	 | TOEFL | Score	| University  Rating	| SOP | 	LOR |	CGPA	 | Research
-----:| -------:|-------:|--------:|---------------------:|----:|-------:|--------:|----------
+GRE | Score	 | TOEFL Score	| University  Rating	| SOP | 	LOR |	CGPA	 | Research
+----:| -------:|---------------:|---------------------:|----:|-------:|--------:|----------
 337	| 118| 	4	| 4.5	| 4.5	| 9.65	| 1
 324	| 107	| 4	| 4	| 4.5	| 8.87	| 1
 316	| 104 | 3	| 3	| 3.5 | 	8	| 1
