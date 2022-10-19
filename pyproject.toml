@@ -1,3 +1,10 @@
+[project]
+name = "artificial_neural_network"
+version = "1.0.0"
+dependencies = [
+    "numpy",
+    'importlib-metadata; python_version<"3.8"',
+]
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
