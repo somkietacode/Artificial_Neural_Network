@@ -69,3 +69,13 @@ GRE  Score	 | TOEFL Score	| University  Rating	| SOP | 	LOR |	CGPA	 | Research
 308	| 101	| 2	| 3	| 4	| 7.9	| 0
 302	| 102	| 1	| 2	| 1.5	| 8	| 0
 323	| 108	| 3	| 3.5	| 3	| 8.6	| 0
+
+
+---
+## Support
+
+You can ask questions and join the development discussion:
+
+- [Facebook page](https://www.facebook.com/globalanalysistech) .
+
+---
