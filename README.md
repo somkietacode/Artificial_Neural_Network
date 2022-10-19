@@ -22,3 +22,24 @@ It implement four model in two layer neural network for helping you fast build _
 
 Here is an `exemple` :
 
+```python
+from Artificial_Neural_Network import artificialneuralnetwork_classifier
+import pandas as pd
+import numpy as np
+
+# Reading and cleaning dataset form a CSV file
+
+df = pd.read_csv('admission_data.csv')
+df = df.apply(pd.to_numeric, errors='coerce')
+df = df.dropna()
+
+# Select X dataset (consign) and convert them in numpy matrix 
+x = np.matrix(df[["GRE Score","TOEFL Score","University Rating","SOP","LOR ","CGPA"]].to_numpy() )
+
+# Select Y dataset (response) and convert them in numpy matrix 
+y = np.matrix(df[["Research"]].to_numpy())
+
+# Train the model
+ANN = artificialneuralnetwork_classifier(x,y)
+
+```
