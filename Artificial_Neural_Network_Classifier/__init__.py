@@ -29,8 +29,11 @@ class artificialneuralnetwork_classifier :
     #self.training_data_X = np.insert(training_data_X, 0, pading, axis=1) # The training data x => features numpy_matrix
     self.training_data_X = training_data_X
     self.training_data_Y = training_data_Y # The training data y => response numpy_matrix
-    Lr = LR(self.training_data_X,self.training_data_Y)
-    alpha_1, rss = Lr.leastsquare()
+    try :
+      Lr = LR(self.training_data_X,self.training_data_Y)
+      alpha_1, rss = Lr.leastsquare()
+    except :
+      print("error invalide dataset")
     try :
       LGR = Lgr(self.training_data_X,self.training_data_Y)
       alpha_2 = LGR.Beta
