@@ -19,7 +19,7 @@ class tanhiperboliqueregression:
   def predict(self,x):
     pading = np.ones(x.shape[0])
     x = np.insert(x, 0, pading, axis=1)
-    p_of_x = (0.5 * np.tanh(x * self.Beta) + 0.5)
+    p_of_x = (0.5 * np.tanh(x * self.Beta) + 0.5 ) 
     return p_of_x.item()
     
 if __name__ == "__main__" :
