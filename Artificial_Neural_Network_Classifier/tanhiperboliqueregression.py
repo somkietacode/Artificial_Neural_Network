@@ -13,7 +13,7 @@ class tanhiperboliqueregression:
       Beta_0 = np.matrix(np.zeros(z.shape[1]))
       signal = False
       while signal == False :
-        P_zi = ( 0.5 * np.tanh( z * Beta_0.T  ) + 1 ) / (1 + ( 0.5 * np.tanh( z * Beta_0.T  ) + 1 ) )
+        P_zi = ( 0.5 * np.tanh( z * Beta_0.T  ) + 0.5 ) / (1 + ( 0.5 * np.tanh( z * Beta_0.T  ) + 0.5 ) )
         id = np.matrix(np.ones((P_zi.shape[0])))
         w =  np.diagflat(np.diag(( id.T - P_zi ).dot(P_zi.T)))
         v = z * Beta_0.T  + ( inv(w) *  (self.training_data_Y - P_zi ) )
@@ -31,7 +31,7 @@ class tanhiperboliqueregression:
   def predict(self,x):
     pading = np.ones(x.shape[0])
     x = np.insert(x, 0, pading, axis=1)
-    p_of_x = (0.5 * np.tanh(x * self.Beta) + 1) / ( 1 + (0.5 * np.tanh(x * self.Beta) + 1) )
+    p_of_x = (0.5 * np.tanh(x * self.Beta) + 0.5) / ( 1 + (0.5 * np.tanh(x * self.Beta) + 0.5) )
     return p_of_x.item()
     
 if __name__ == "__main__" :
