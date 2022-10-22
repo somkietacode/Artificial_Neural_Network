@@ -31,12 +31,12 @@ class tanhiperboliqueregression:
   def predict(self,x):
     pading = np.ones(x.shape[0])
     x = np.insert(x, 0, pading, axis=1)
-    p_of_x = (0.5 * np.tanh(x * self.Beta) + 0.5) / ( 1 + (0.5 * np.tanh(x * self.Beta) + 0.5) )
+    p_of_x = (0.5 * np.tanh(x * self.Beta) + 0.5 ) 
     return p_of_x.item()
     
 if __name__ == "__main__" :
   x = np.matrix([[1,3],[2,4],[4,1],[3,1],[4,2] ])
   y = np.matrix([[0],[0],[0],[1],[1] ] )
   LR = tanhiperboliqueregression(x,y)
-  x_ = np.matrix([[0,0]])
+  x_ = np.matrix([[4,2]])
   print(LR.predict(x_))
